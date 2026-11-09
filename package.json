@@ -1,0 +1,28 @@
+{
+  "name": "shiyun-poetry-universe-vue3",
+  "private": true,
+  "version": "0.9.0",
+  "type": "module",
+  "description": "诗云 · 中国诗歌宇宙：Vue 3 + TypeScript + Three.js 三维诗歌星系，v9 加入自适应渲染预算、低分辨率 Bloom、星云分档与 UI 合成优化。",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "download:data": "node scripts/download-real-data.mjs",
+    "doctor:data": "node scripts/check-data.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vueuse/core": "^12.8.2",
+    "pinia": "^2.3.1",
+    "three": "^0.169.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/three": "^0.185.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.2.1",
+    "vue-tsc": "^2.2.8"
+  }
+}
